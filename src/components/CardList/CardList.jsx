@@ -1,9 +1,8 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import axios from "axios";
 import "../Weather.css";
 import "./CardList.css";
-import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 export default function CardList() {
