@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-
+import React from "react";
 import equalizer from "./assets/background-01.png";
 import Formulaire from "./components/Formulaire";
 import equalizerMobile from "./assets/background-mobi-01.png";
