@@ -1,0 +1,125 @@
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.card-party-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: space-between;
+  border-radius: 15px;
+  margin: 0 3em 3em 0;
+  width: 260px;
+  height: 400px;
+  z-index: 99;
+}
+
+.headerCard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.headerCard img {
+  width: 8rem;
+}
+
+p {
+  display: flex;
+  align-items: flex-end;
+  font-size: 25px;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 10px 10px hsl(0, 0%, 60%);
+  border: solid 1px hsl(15, 3%, 70%);
+  border-radius: 5px;
+  margin: auto;
+  width: 90%;
+  height: 40%;
+  margin-top: 3rem;
+}
+
+.play,
+.stop {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.Card.sad {
+  box-shadow: 10px 10px 10px hsl(197, 97%, 35%);
+  border: solid 3px hsl(197, 97%, 35%);
+  background-color: white;
+}
+.Card.happy {
+  box-shadow: 10px 10px 10px hsl(34, 100%, 60%);
+  border: solid 3px hsl(34, 100%, 60%);
+  background-color: white;
+}
+.Card.angry {
+  box-shadow: 10px 10px 10px hsl(300, 100%, 31%);
+  border: solid 3px hsl(300, 100%, 31%);
+  background-color: white;
+}
+.Card.sporty {
+  box-shadow: 10px 10px 10px hsl(113, 67%, 51%);
+  border: solid 3px hsl(113, 67%, 51%);
+  background-color: white;
+}
+.Card.epic {
+  box-shadow: 10px 10px 10px #c3922e;
+  border: solid 3px #c3922e;
+  background-color: white;
+}
+.Card.chlid {
+  box-shadow: 10px 10px 10px hsl(293, 66%, 73%);
+  border: solid 3px hsl(293, 66%, 73%);
+  background-color: white;
+}
+.Card.calm {
+  box-shadow: 10px 10px 10px hsl(123, 66%, 83%);
+  border: solid 3px hsl(123, 66%, 83%);
+  background-color: white;
+}
+.Card.romance {
+  box-shadow: 10px 10px 10px hsl(323, 90%, 52%);
+  border: solid 3px hsl(323, 90%, 52%);
+  background-color: white;
+}
+.Card.comedy {
+  box-shadow: 10px 10px 10px hsl(54, 100%, 50%);
+  border: solid 3px hsl(54, 92%, 50%);
+  background-color: white;
+}
+.Card.hot {
+  box-shadow: 10px 10px 10px hsl(0, 100%, 44%);
+  border: solid 3px hsl(0, 100%, 44%);
+  background-color: white;
+}
+
+.mood-thumbnail {
+  height: 95%;
+  width: 95%;
+}
+
+.hidden-player {
+  visibility: hidden;
+}
